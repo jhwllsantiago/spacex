@@ -1,0 +1,42 @@
+li {
+  list-style: none;
+}
+
+.loading {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.launch {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding: 10px;
+  margin: 20px;
+  align-items: center;
+}
+
+.launch .box {
+  font-size: 100px;
+  line-height: 100px;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+}
+
+.launch .details {
+  width: fit-content;
+  height: fit-content;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.launch .details p {
+  width: 90%;
+  word-wrap: break-word;
+}
